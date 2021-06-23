@@ -2477,19 +2477,19 @@
     ejs "^2.6.1"
     magic-string "^0.25.0"
 
-"@testing-library/dom@^7.28.1":
-  version "7.30.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.30.3.tgz#779ea9bbb92d63302461800a388a5a890ac22519"
-  integrity sha512-7JhIg2MW6WPwyikH2iL3o7z+FTVgSOd2jqCwTAHqK7Qal2gRRYiUQyURAxtbK9VXm/UTyG9bRihv8C5Tznr2zw==
+"@testing-library/dom@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.0.0.tgz#2bb994393c566aae021db86dd263ba06e8b71b38"
+  integrity sha512-Ym375MTOpfszlagRnTMO+FOfTt6gRrWiDOWmEnWLu9OvwCPOWtK6i5pBHmZ07wUJiQ7wWz0t8+ZBK2wFo2tlew==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
     "@types/aria-query" "^4.2.0"
     aria-query "^4.2.2"
     chalk "^4.1.0"
-    dom-accessibility-api "^0.5.4"
+    dom-accessibility-api "^0.5.6"
     lz-string "^1.4.4"
-    pretty-format "^26.6.2"
+    pretty-format "^27.0.2"
 
 "@testing-library/jest-dom@^5.14.1":
   version "5.14.1"
@@ -2506,13 +2506,13 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^11.2.6":
-  version "11.2.6"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.6.tgz#586a23adc63615985d85be0c903f374dab19200b"
-  integrity sha512-TXMCg0jT8xmuU8BkKMtp8l7Z50Ykew5WNX8UoIKTaLFwKkP2+1YDhOLA2Ga3wY4x29jyntk7EWfum0kjlYiSjQ==
+"@testing-library/react@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-12.0.0.tgz#9aeb2264521522ab9b68f519eaf15136148f164a"
+  integrity sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@testing-library/dom" "^7.28.1"
+    "@testing-library/dom" "^8.0.0"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2953,14 +2953,6 @@
     "@typescript-eslint/typescript-estree" "4.27.0"
     debug "^4.3.1"
 
-"@typescript-eslint/scope-manager@4.26.1":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.26.1.tgz#075a74a15ff33ee3a7ed33e5fce16ee86689f662"
-  integrity sha512-TW1X2p62FQ8Rlne+WEShyd7ac2LA6o27S9i131W4NwDSfyeVlQWhw8ylldNNS8JG6oJB9Ha9Xyc+IUcqipvheQ==
-  dependencies:
-    "@typescript-eslint/types" "4.26.1"
-    "@typescript-eslint/visitor-keys" "4.26.1"
-
 "@typescript-eslint/scope-manager@4.27.0":
   version "4.27.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.27.0.tgz#b0b1de2b35aaf7f532e89c8e81d0fa298cae327d"
@@ -2969,28 +2961,10 @@
     "@typescript-eslint/types" "4.27.0"
     "@typescript-eslint/visitor-keys" "4.27.0"
 
-"@typescript-eslint/types@4.26.1":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.26.1.tgz#9e7c523f73c34b04a765e4167ca5650436ef1d38"
-  integrity sha512-STyMPxR3cS+LaNvS8yK15rb8Y0iL0tFXq0uyl6gY45glyI7w0CsyqyEXl/Fa0JlQy+pVANeK3sbwPneCbWE7yg==
-
 "@typescript-eslint/types@4.27.0":
   version "4.27.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.27.0.tgz#712b408519ed699baff69086bc59cd2fc13df8d8"
   integrity sha512-I4ps3SCPFCKclRcvnsVA/7sWzh7naaM/b4pBO2hVxnM3wrU51Lveybdw5WoIktU/V4KfXrTt94V9b065b/0+wA==
-
-"@typescript-eslint/typescript-estree@4.26.1":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.26.1.tgz#b2ce2e789233d62283fae2c16baabd4f1dbc9633"
-  integrity sha512-l3ZXob+h0NQzz80lBGaykdScYaiEbFqznEs99uwzm8fPHhDjwaBFfQkjUC/slw6Sm7npFL8qrGEAMxcfBsBJUg==
-  dependencies:
-    "@typescript-eslint/types" "4.26.1"
-    "@typescript-eslint/visitor-keys" "4.26.1"
-    debug "^4.3.1"
-    globby "^11.0.3"
-    is-glob "^4.0.1"
-    semver "^7.3.5"
-    tsutils "^3.21.0"
 
 "@typescript-eslint/typescript-estree@4.27.0":
   version "4.27.0"
@@ -3004,14 +2978,6 @@
     is-glob "^4.0.1"
     semver "^7.3.5"
     tsutils "^3.21.0"
-
-"@typescript-eslint/visitor-keys@4.26.1":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.26.1.tgz#0d55ea735cb0d8903b198017d6d4f518fdaac546"
-  integrity sha512-IGouNSSd+6x/fHtYRyLOM6/C+QxMDzWlDtN41ea+flWuSF9g02iqcIlX8wM53JkfljoIjP0U+yp7SiTS1onEkw==
-  dependencies:
-    "@typescript-eslint/types" "4.26.1"
-    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.27.0":
   version "4.27.0"
@@ -5283,7 +5249,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dom-accessibility-api@^0.5.4, dom-accessibility-api@^0.5.6:
+dom-accessibility-api@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
   integrity sha512-DplGLZd8L1lN64jlT27N9TVSESFR5STaEJvX+thCby7fuCHonfPpAlodYc3vuUYbDuDec5w8AMP7oCM5TWFsqw==
