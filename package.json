@@ -29,9 +29,9 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
+    "@babel/core": "^7.16.7",
     "@babel/preset-typescript": "^7.15.0",
-    "@storybook/addon-essentials": "6.3.12",
+    "@storybook/addon-essentials": "6.4.9",
     "@storybook/react": "6.3.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.0",
@@ -47,7 +47,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
     "jest-styled-components": "^7.0.5",
