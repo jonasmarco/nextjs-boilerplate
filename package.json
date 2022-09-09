@@ -55,6 +55,6 @@
     "plop": "^3.0.5",
     "prettier": "^2.5.1",
     "storybook-addon-next-router": "^2.0.4",
-    "typescript": "^4.5.4"
+    "typescript": "^4.8.3"
   }
 }
